@@ -1,0 +1,73 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background:linear-gradient(rgba(0, 0, 0, 0.315),rgba(5, 5, 5, 0.24)),
+                url(img/test-landing-id3.png);
+    background-position-x: center;
+    font-family: Inter;
+}
+
+/* HEADER */
+
+    .topbar{
+        display: flex;
+        width: 402px;
+        padding: 12px;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    header{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 24px;
+        flex-shrink: 0;
+        align-self: stretch;
+    }
+
+    .text-block{
+        padding-top: 45vh;
+        gap: 12px;
+    }
+
+    .landing-text1{
+        margin: 0;
+        margin-bottom: 12px;
+        max-width: 250px;
+        align-self: stretch;    
+        color: #EF7D00;
+        font-size: 20px;
+        font-weight: 300;
+    }
+
+    .landing-text2{
+        margin: 0;
+        margin-bottom: 12px;
+        align-self: stretch;
+        color:#FFF;
+        font-size: 40px;
+        font-weight: 700;
+    }
+
+    .landing-text3 {
+        margin: 0;
+        align-self: stretch;
+        color:#FFF;
+        font-size: 20px;
+        font-weight: 300;
+    }
+
+    .btn-orange{
+        display: flex;
+        padding: 12px 24px;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        border-radius: 6px;
+        background: #EF7D00;
+        color: #FFF;
+        font-size: 16px;
+    }
