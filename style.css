@@ -11,6 +11,15 @@ body{
 
 /* HEADER */
 
+    
+    .header-landing{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 24px;
+        flex-shrink: 0;
+    }
+
     .topbar{
         display: flex;
         width: 402px;
@@ -19,21 +28,12 @@ body{
         align-items: center;
     }
 
-    header{
-        display: flex;
-        flex-direction: column;
-        align-items: flex-start;
-        gap: 24px;
-        flex-shrink: 0;
-        align-self: stretch;
-    }
-
-    .text-block{
+    .header-landing-text-container{
         padding-top: 45vh;
         gap: 12px;
     }
 
-    .landing-text1{
+    .landing-h2{
         margin: 0;
         margin-bottom: 12px;
         max-width: 250px;
@@ -43,7 +43,7 @@ body{
         font-weight: 300;
     }
 
-    .landing-text2{
+    .landing-h1{
         margin: 0;
         margin-bottom: 12px;
         align-self: stretch;
@@ -52,7 +52,7 @@ body{
         font-weight: 700;
     }
 
-    .landing-text3 {
+    .landing-description {
         margin: 0;
         align-self: stretch;
         color:#FFF;
@@ -70,4 +70,10 @@ body{
         background: #EF7D00;
         color: #FFF;
         font-size: 16px;
+    }
+
+ /* SEGUNDA PARTE : DISEÑA DESARROLLA*/
+
+     .section-disena-desarrolla{ 
+        background-color: white;
     }
