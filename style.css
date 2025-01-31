@@ -2,36 +2,17 @@
     box-sizing: border-box;
 }
 
-body{
-    background:linear-gradient(rgba(0, 0, 0, 0.315),rgba(5, 5, 5, 0.24)),
-                url(img/test-landing-id3.png);
-    background-position-x: center;
-    font-family: Inter;
-}
-
-/* HEADER */
-
-    
-    .header-landing{
-        display: flex;
-        flex-direction: column;
-        align-items: flex-start;
-        gap: 24px;
-        flex-shrink: 0;
+    body {
+        background: linear-gradient(rgba(0, 0, 0, 0.315),rgba(5, 5, 5, 0.24)),
+                    url(img/test-landing-id3.png);
+        background-position-x: center;
+        background-size: cover;
+        font-family: Inter;
+        margin: 0;
+        padding: 0;
     }
 
-    .topbar{
-        display: flex;
-        width: 402px;
-        padding: 12px;
-        justify-content: space-between;
-        align-items: center;
-    }
-
-    .header-landing-text-container{
-        padding-top: 45vh;
-        gap: 12px;
-    }
+/* FONTS AND TEXT STYLES */
 
     .landing-h2{
         margin: 0;
@@ -52,14 +33,64 @@ body{
         font-weight: 700;
     }
 
-    .landing-description {
+    .text-description {
         margin: 0;
         align-self: stretch;
-        color:#FFF;
         font-size: 20px;
         font-weight: 300;
     }
 
+    .weight-light {
+        font-weight: 200;
+    }
+
+    .orange-text {
+        color: #EF7D00;
+    }
+
+    .white-text {
+        color:#FFF;
+    }
+
+    .section-title {
+        font-size: 45px;
+        font-weight: 300;
+    }
+
+/* HEADER */
+
+    .header-landing {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 24px;
+        flex-shrink: 0;
+        padding: 20px;
+    }
+
+    /* Contenedor para limitar el fondo del header */
+    .header-wrapper {
+        background: url(img/test-landing-id3.png);
+        background-position-x: center;
+        background-size: cover;
+        padding-bottom: 50px; 
+    }
+
+    .topbar {
+        display: flex;
+        width: 402px;
+        padding: 12px;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+
+    .header-landing-text-container{
+        padding-top: 45vh;
+        gap: 12px;
+    }
+
+  
     .btn-orange{
         display: flex;
         padding: 12px 24px;
@@ -74,6 +105,47 @@ body{
 
  /* SEGUNDA PARTE : DISEÑA DESARROLLA*/
 
-     .section-disena-desarrolla{ 
+    .section-disena-desarrolla { 
         background-color: white;
+        padding: 50px 20px; 
+        min-height: 300px; 
+    }
+
+    .footer-navigation {
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        gap: 10px;
+        align-self: stretch;
+        padding: 20px;
+    }
+    
+    .nav-button {
+        width: 40px;
+        height: 40px;
+        border-radius: 50%; 
+        border: none;
+        background-color: rgb(14, 13, 13); 
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 0;
+    }
+
+    .nav-button img {
+        width: 24px;
+        height: 24px;
+    }
+    
+    
+/* TERCERA PARTE */
+
+    .section-proyectos{
+        background: #EEF0F5;
+        padding: 50px 20px; /* Espaciado interno */
+    text-align: center;
+    }
+
+    .image-container {
+        margin-top: 25px;
     }
